@@ -1,10 +1,13 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
-import './index.css'
-import App from './App.jsx'
+// Este archivo es el punto de entrada de tu aplicación.
+// Le dice a React dónde renderizar el componente principal (App).
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import App from './App.jsx'; // Asegúrate de importar el componente App
+import './index.css';     // Importa los estilos de Tailwind
+
+ReactDOM.createRoot(document.getElementById('root')).render(
+  <React.StrictMode>
     <App />
-  </StrictMode>,
-)
+  </React.StrictMode>,
+);
