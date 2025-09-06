@@ -16,7 +16,7 @@ const Carousel = () => (
             Nuestra red mundial de más de 1,2 millones de vecinos, amigos y líderes voluntarios
             ofrecen sus conocimientos y recursos para resolver problemas y abordar las necesidades de las comunidades.
           </p>
-          <button className="btn btn-outline-light">Toma acción junto a nosotros</button>
+          
         </div>
       </div>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+
 const Header = () => (
     <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
@@ -25,19 +26,19 @@ const Header = () => (
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
-                        <button type="button" class="btn btn-outline-warning">Inicio</button>
+                        <button type="button" class="btn btn-underline-hover">Inicio</button>
                     </li>
                     <li className="nav-item">
-                        <button type="button" class="btn btn-outline-warning">Quienes somos</button>
+                        <button type="button" class="btn btn-underline-hover">Quienes somos</button>
                     </li>
                     <li className="nav-item">
-                        <button type="button" class="btn btn-outline-warning">Calendario de Actividades</button>
+                        <button type="button" class="btn btn-underline-hover">Calendario de Actividades</button>
                     </li>
                     <li className="nav-item">
-                        <button type="button" class="btn btn-outline-warning">Banco Ortopedico</button>
+                        <button type="button" class="btn btn-underline-hover">Banco Ortopedico</button>
                     </li>
                     <li className="nav-item">
-                        <button type="button" class="btn btn-outline-warning">Concurso Literario</button>
+                        <button type="button" class="btn btn-underline-hover">Concurso Literario</button>
                     </li>
                     <li className="nav-item dropdown">
                         <a
@@ -58,7 +59,7 @@ const Header = () => (
                         </ul>
                     </li>
                 </ul>
-                <button className="btn btn-outline-success" type="submit">Contactanos</button>
+                <button className="btn btn-outline-warning" type="submit">Contactanos</button>
             </div>
         </div>
     </nav>
